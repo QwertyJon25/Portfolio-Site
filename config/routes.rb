@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :abouts
+  resources :educations
   resources :projects
   resources :skills
   # Routing logic: fallback requests for React Router.
