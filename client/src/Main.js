@@ -7,6 +7,7 @@ import Links from './Links.js';
 export default function Main() {
   return (
         <div className="Main">
+            <h2>Main</h2>
             <About />
             <Skills />
             <Projects />
