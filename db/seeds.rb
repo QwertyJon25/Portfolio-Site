@@ -14,6 +14,18 @@ Project.create(name: "", desc: "", git: "", vid: "")
 
 puts "Creating skills..."
 Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
+Skill.create(name: "", is_web: "")
 
 
 puts "Creating educations..."
