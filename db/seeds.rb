@@ -8,6 +8,8 @@ puts "🌱 Seeding data..."
 # Seed your database here
 puts "Creating projects..."
 Project.create(name: "", desc: "", git: "", vid: "")
+Project.create(name: "", desc: "", git: "", vid: "")
+Project.create(name: "", desc: "", git: "", vid: "")
 
 
 puts "Creating skills..."
