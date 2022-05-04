@@ -5,6 +5,8 @@ export default function Projects() {
     <div className="Projects">
             <h2>Projects</h2>
             <p>Projects</p>
+            <p>Projects</p>
+            <p>Projects</p>
         </div>
   )
 }
