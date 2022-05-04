@@ -18,6 +18,8 @@ Skill.create(name: "", is_web: "")
 
 puts "Creating educations..."
 Education.create(name: "", date: "", degree: "")
+Education.create(name: "", date: "", degree: "")
+Education.create(name: "", date: "", degree: "")
 
 
 puts "Creating abouts..."
