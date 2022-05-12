@@ -11,13 +11,16 @@ Project.create(name: "Canine Crushes", desc: "Created with React.js as a fronten
 
 Project.create(name: "ArtDex", desc: "Created with React.js as a frontend framework, Active Record as an ORM, and Ruby on Rails as a backend framework. Featuring React Router and CSS for styling. This application was my capstone project during my final semester at Flatiron School. Users can view lists of artists, galleries, directors and art pieces rendered from associated data from a custom backend database. Art pieces feature full CRUD capability.", git: "https://github.com/QwertyJon25/ArtDex", vid: "In Progress")
 
-Project.create(name: "SpectrumSpecs", desc: "", git: "", vid: "")
+Project.create(name: "SpectrumSpecs", desc: "Created with React.js and styled with CSS.", git: "https://github.com/QwertyJon25/SpectrumSpecs", vid: "In Progress")
 
 
 puts "Creating skills..."
-Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
+Skill.create(name: "HTML", is_web: "true")
+
+Skill.create(name: "CSS", is_web: "true")
+
+Skill.create(name: "Javascript(ES6)", is_web: "true")
+
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
