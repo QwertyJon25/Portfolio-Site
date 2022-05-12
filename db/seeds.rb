@@ -21,10 +21,14 @@ Skill.create(name: "CSS", is_web: "true")
 
 Skill.create(name: "Javascript(ES6)", is_web: "true")
 
-Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
+Skill.create(name: "React.js", is_web: "true")
+
+Skill.create(name: "Ruby", is_web: "true")
+
+Skill.create(name: "Sinatra", is_web: "true")
+
+Skill.create(name: "Ruby on Rails", is_web: "true")
+
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
@@ -35,7 +39,9 @@ Skill.create(name: "", is_web: "")
 
 puts "Creating educations..."
 Education.create(name: "", date: "", degree: "")
+
 Education.create(name: "", date: "", degree: "")
+
 Education.create(name: "", date: "", degree: "")
 
 
