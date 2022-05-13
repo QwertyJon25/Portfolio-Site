@@ -31,7 +31,8 @@ Skill.create(name: "Ruby on Rails", is_web: "true")
 
 Skill.create(name: "SQLite3", is_web: "true")
 
-Skill.create(name: "", is_web: "")
+Skill.create(name: "Postgresql", is_web: "true")
+
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
