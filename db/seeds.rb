@@ -54,7 +54,7 @@ Education.create(name: "Flatiron School", date: "2021", degree: "Certificate of 
 
 Education.create(name: "SUNY Orange", date: "2011", degree: "Associate Degree - Art")
 
-Education.create(name: "", date: "", degree: "")
+Education.create(name: "Middletown High School", date: "2009", degree: "Diploma")
 
 
 puts "Creating abouts..."
