@@ -52,7 +52,7 @@ Skill.create(name: "", is_web: "")
 puts "Creating educations..."
 Education.create(name: "Flatiron School", date: "2021", degree: "Certificate of Completion")
 
-Education.create(name: "", date: "", degree: "")
+Education.create(name: "SUNY Orange", date: "2011", degree: "Associate Degree - Art")
 
 Education.create(name: "", date: "", degree: "")
 
