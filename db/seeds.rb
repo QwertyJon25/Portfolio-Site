@@ -36,7 +36,6 @@ Skill.create(name: "Postgresql", is_web: "true")
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
 Skill.create(name: "", is_web: "")
-Skill.create(name: "", is_web: "")
 
 Skill.create(name: "Adobe Photoshop", is_web: "false")
 
