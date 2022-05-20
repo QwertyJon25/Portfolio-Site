@@ -19,12 +19,10 @@ export default function Main() {
           paddingBottom: "1rem"
         }}
       >
-        <Link to="/welcome">Home</Link> |{" "}
-        <Link to="/artists">Artists</Link> |{" "}
-        <Link to="/directors">Directors</Link> |{" "}
-        <Link to="/galleries">Galleries</Link> |{" "}
-        <Link to="/pieces">Pieces</Link> |{" "}
-        <Link to="/profile">Your Profile</Link>
+        <Link to="/">About</Link> |{" "}
+        <Link to="/skills">Skills</Link> |{" "}
+        <Link to="/projects">Projects</Link> |{" "}
+        <Link to="/links">Links</Link> |{" "}
       </nav>
       <Outlet /> */}
         </div>
