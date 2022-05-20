@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
+// import { Outlet, Link } from "react-router-dom";
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
