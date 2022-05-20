@@ -13,6 +13,20 @@ export default function Main() {
             <Skills />
             <Projects />
             <Links />
+            {/* <nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem"
+        }}
+      >
+        <Link to="/welcome">Home</Link> |{" "}
+        <Link to="/artists">Artists</Link> |{" "}
+        <Link to="/directors">Directors</Link> |{" "}
+        <Link to="/galleries">Galleries</Link> |{" "}
+        <Link to="/pieces">Pieces</Link> |{" "}
+        <Link to="/profile">Your Profile</Link>
+      </nav>
+      <Outlet /> */}
         </div>
   )
 }
