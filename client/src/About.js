@@ -16,7 +16,7 @@ const [abouts, setAbouts] = useState([])
 
   return (
         <div className="About">
-          <ul className="cards">{aboutCards}</ul>
+          {/* <ul className="cards">{aboutCards}</ul> */}
           <h2>About</h2>
             <h3>Howdy.</h3>
                 <p className="intro">I am a Comic-Book Artist, Junior Software Engineer and Full-Stack Web Developer. I work at a bookstore, have held a
