@@ -11,7 +11,7 @@ const [abouts, setAbouts] = useState([])
     }, [])
 
 
-const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
+// const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
 
 
   return (
