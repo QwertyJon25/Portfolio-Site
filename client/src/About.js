@@ -1,17 +1,17 @@
 import React, {useEffect, useState } from 'react';
 
 export default function About() {
-const [abouts, setAbouts] = useState([])
+// const [abouts, setAbouts] = useState([])
 
 
-    useEffect(() => {
-        fetch('/abouts/')
-        .then(resp => resp.json())
-        .then(aboutData => setAbouts(aboutData))
-    }, [])
+//     useEffect(() => {
+//         fetch('/abouts/')
+//         .then(resp => resp.json())
+//         .then(aboutData => setAbouts(aboutData))
+//     }, [])
 
 
-const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
+// const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
 
 
   return (
