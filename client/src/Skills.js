@@ -1,6 +1,20 @@
 import React from 'react'
+// import React, {useEffect, useState } from 'react';
 
 export default function Skills() {
+
+const [abouts, setAbouts] = useState([])
+
+
+    useEffect(() => {
+        fetch('/abouts/')
+        .then(resp => resp.json())
+        .then(aboutData => setAbouts(aboutData))
+    }, [])
+
+
+const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
+
   return (
     <div className="Skills">
           <h2>Skills</h2>
