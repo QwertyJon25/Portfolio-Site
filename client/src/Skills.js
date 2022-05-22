@@ -3,17 +3,17 @@ import React from 'react'
 
 export default function Skills() {
 
-const [skills, setSkills] = useState([])
+// const [skills, setSkills] = useState([])
 
 
-    useEffect(() => {
-        fetch('/skills/')
-        .then(resp => resp.json())
-        .then(skillData => setSkills(skillData))
-    }, [])
+//     useEffect(() => {
+//         fetch('/skills/')
+//         .then(resp => resp.json())
+//         .then(skillData => setSkills(skillData))
+//     }, [])
 
 
-const skillCards = sortedSkills?.map(aboutObj => <SkillList key={skillObj.id} skillData={skillObj} />)
+// const skillCards = sortedSkills?.map(aboutObj => <SkillList key={skillObj.id} skillData={skillObj} />)
 
   return (
     <div className="Skills">
