@@ -3,17 +3,17 @@ import React from 'react'
 
 export default function Skills() {
 
-const [abouts, setAbouts] = useState([])
+const [skills, setSkills] = useState([])
 
 
     useEffect(() => {
-        fetch('/abouts/')
+        fetch('/skills/')
         .then(resp => resp.json())
-        .then(aboutData => setAbouts(aboutData))
+        .then(skillData => setSkills(skillData))
     }, [])
 
 
-const aboutCards = sortedAbouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutData={aboutObj} />)
+const skillCards = sortedSkills?.map(aboutObj => <SkillList key={skillObj.id} skillData={skillObj} />)
 
   return (
     <div className="Skills">
