@@ -53,7 +53,7 @@ Education.create(name: "Middletown High School", date: "2009", degree: "Diploma"
 
 
 puts "Creating abouts..."
-About.create(bio: "", image: "")
+About.create(bio: "Jon", image: "Image")
 
 
 puts "✅ Done seeding!" 
