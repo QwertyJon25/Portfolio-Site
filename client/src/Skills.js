@@ -1,5 +1,5 @@
 import React, {useEffect, useState } from 'react';
-import SkillList from './SkillList.js'
+import SkillsList from './SkillsList.js'
 
 export default function Skills() {
 
@@ -14,7 +14,7 @@ const [showForm, setShowForm] = useState([])
     }, [])
 
 
-const skillCards = skills?.map(skillObj => <SkillList key={skillObj.id} skillData={skillObj} />)
+const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillData={skillObj} />)
 
   return (
     <div className="Skills">
