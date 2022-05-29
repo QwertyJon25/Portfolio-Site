@@ -30,6 +30,7 @@ export default function Skills() {
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
                         expression.</p>
+                        <hr/>
         </div>
   )
 }

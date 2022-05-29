@@ -21,9 +21,10 @@ const aboutCards = abouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutDat
           <h2>About</h2>
             <h3>Howdy.</h3>
             <ul className="aboutCards">{aboutCards}</ul>
-                <p className="intro">I am a Comic-Book Artist, Junior Software Engineer and Full-Stack Web Developer. I work at a bookstore, have held a
+            <hr/>
+                {/* <p className="intro">I am a Comic-Book Artist, Junior Software Engineer and Full-Stack Web Developer. I work at a bookstore, have held a
                     varied number of jobs during my time in the workforce, and am an enthusiastic linguistics nerd. I ❤️
-                    coffee and enjoy a mostly vegetarian diet.</p>
+                    coffee and enjoy a mostly vegetarian diet.</p> */}
         </div>
   )
 }

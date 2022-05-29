@@ -53,7 +53,7 @@ Education.create(name: "Middletown High School", date: "2009", degree: "Diploma"
 
 
 puts "Creating abouts..."
-About.create(bio: "I'm a Comic Illustrator, Junior Software Engineer and Full-Stack Web Developer. I attended the Flatiron School and completed the Software Engineering course in 2021. I've held a wide range of varied jobs during my time in the workforce, and am an enthusiastic linguistics nerd.", image: "https://i.imgur.com/s3X9BIJ.jpg")
+About.create(bio: "I'm a Comic Illustrator, Junior Software Engineer and Full-Stack Web Developer. I attended the Flatiron School and completed the Software Engineering course in 2021. I've held a wide range of varied jobs during my time in the workforce, and am an enthusiastic linguistics nerd.", image: "https://imgur.com/s3X9BIJ")
 
 
 puts "✅ Done seeding!" 
