@@ -22,6 +22,7 @@ export default function Projects() {
             <p>Projects</p>
             <p>Projects</p>
             <p>Projects</p>
+            <hr/>
         </div>
   )
 }

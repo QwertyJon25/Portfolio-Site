@@ -8,7 +8,7 @@ import Links from './Links.js';
 export default function Main() {
   return (
         <div className="Main">
-            <h2>Main</h2>
+          <img src="https://i.imgur.com/s3X9BIJ.jpg" alt="Jon Courtier" width="300" height="300"/>
             <About />
             <Skills />
             <Projects />
