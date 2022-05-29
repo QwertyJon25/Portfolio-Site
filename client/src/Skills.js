@@ -22,10 +22,11 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
             <h3>Design + Development</h3>
                     <p>I may be green in the realms of coding and programming, but I'm a hard worker and a fast learner.
                         <em>Who</em> doesn't enjoy that combination!?</p> <br/>
-                        { showForm ? <ul className="skill-cards">{skillCards}</ul> : <img className="agency-img" src="https://www.thesprucepets.com/thmb/AYrOH3UNNGqwwkcMOjE8BJdA9YA=/1854x1854/smart/filters:no_upscale()/pitbull-dog-breeds-4843994-hero-db6922b6c8294b45b19c07aff5865790.jpg" alt="agency-img"/>}<br/>
-                <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Skills</button>
-                    <p>Tech</p> <p>Art</p> going to feature drop down for both, iterated to front with boolean filter contingent on is tech or not.
+                        <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Skills</button>
+                        { showForm ? <ul className="skill-cards">{skillCards}</ul> : null }<br/>
+                        {/* going to feature drop down for both, iterated to front with boolean filter contingent on is tech or not.} */}
             <h3>Illustrator</h3>
+                      <p>Art</p>
                     <p>I've been drawing since I was six years old and have been making comics ever since. While largely
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
