@@ -23,7 +23,7 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
                     <p>I may be green in the realms of coding and programming, but I'm a hard worker and a fast learner.
                         <em>Who</em> doesn't enjoy that combination!?</p> <br/>
                         <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Skills</button>
-                        { showForm ? <ul className="skill-cards">{skillCards}</ul> : null }<br/>
+                        { showForm ? null : <ul className="skill-cards">{skillCards}</ul> }<br/>
                         {/* going to feature drop down for both, iterated to front with boolean filter contingent on is tech or not.} */}
             <h3>Illustrator</h3>
                       <p>Art</p>
