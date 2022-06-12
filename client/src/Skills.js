@@ -31,11 +31,11 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
                         <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Tech Skills</button>
                         { showForm ? null : <ul className="skill-cards">{skillCards}</ul> }<br/>
             <h3>Illustrator</h3>
-                      <p>Art Skills</p>
                     <p>I've been drawing since I was six years old and have been making comics ever since. While largely
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
                         expression.</p>
+                        <button className="art-skill-button" style={{backgroundColor: "light-grey"}} >Art Skills</button>
                         <hr/>
         </div>
   )
