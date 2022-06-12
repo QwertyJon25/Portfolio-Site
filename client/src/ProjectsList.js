@@ -6,10 +6,12 @@ export default function ProjectsList({projectData}) {
 
   return (
     <div>
-      Name: {name}<br/>
-      Description: {desc}<br/>
-      Git Link: {git}<br/>
+      Name: {name}<br/><br/>
+      Description: {desc}<br/><br/>
+      Git Link: {git}<br/><br/>
       Demo Vid: {vid} <br/>
+      <br/>
+      <br/>
     </div>
   )
 }
