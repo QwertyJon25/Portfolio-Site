@@ -17,7 +17,7 @@ const [showForm, setShowForm] = useState([])
 const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillData={skillObj} />)
 
 // function displayArtSkills() {
-//   if (is_Web = true)
+//   if (is_Web === true)
 //  return is_Web
 // };
 
