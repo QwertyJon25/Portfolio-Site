@@ -20,6 +20,7 @@ export default function Projects() {
 
   return (
     <div className="Projects">
+      <h2>Featured Projects</h2>
       <button onClick={() => setShowForm(!showForm)} className="project-button" style={{backgroundColor: "red"}}>Projects</button>
                         { showForm ? <ul className="project-cards">{projectCards}</ul> : null }<br/>
             <hr/>

@@ -7,9 +7,8 @@ const {bio} = aboutData;
 
   return (
     <div>
-      <p>About List</p> <br/>
       {/* Image: {image} <br/> */}
-      Bio: {bio}
+      {bio}
     </div>
   )
 }
