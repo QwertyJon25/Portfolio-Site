@@ -18,7 +18,7 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
 
 // function displayArtSkills() {
 //   if (is_Web = true)
-//  return (is_Web)
+//  return is_Web
 // };
 
 
