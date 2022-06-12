@@ -8,6 +8,8 @@ export default function ProjectsList({projectData}) {
     <div>ProjectsList
       {name}<br/>
       {desc}<br/>
+      {git}<br/>
+      {vid}
     </div>
   )
 }
