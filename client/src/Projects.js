@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import ProjectList from './ProjectsList.js'
+import React, { useEffect, useState } from 'react';
+import ProjectList from './ProjectsList.js';
 
 export default function Projects() {
 
-  const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState([]);
+  const [showForm, setShowForm] = useState([]);
 
 
       useEffect(() => {
@@ -19,7 +20,8 @@ export default function Projects() {
 
   return (
     <div className="Projects">
-            <ul className="projectCards">{projectCards}</ul>
+      <button onClick={() => setShowForm(!showForm)} className="project-button" style={{backgroundColor: "red"}}>Projects</button>
+                        { showForm ? <ul className="project-cards">{projectCards}</ul> : null }<br/>
             <hr/>
         </div>
   )

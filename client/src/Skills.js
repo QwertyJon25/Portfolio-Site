@@ -1,5 +1,5 @@
 import React, {useEffect, useState } from 'react';
-import SkillsList from './SkillsList.js'
+import SkillsList from './SkillsList.js';
 
 export default function Skills() {
 

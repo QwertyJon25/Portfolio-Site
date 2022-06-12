@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function ProjectsList({projectData}) {
-  const {name, desc, git, vid} = projectData
+  const {name, desc, git, vid} = projectData;
 
 
   return (
