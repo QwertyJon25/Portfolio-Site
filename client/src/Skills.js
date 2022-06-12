@@ -16,6 +16,11 @@ const [showForm, setShowForm] = useState([])
 
 const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillData={skillObj} />)
 
+// function displayArtSkills() {
+//   if (is_Web = true)
+//  return (is_Web)
+// };
+
 
   return (
     <div className="Skills">
@@ -23,10 +28,10 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
             <h3>Design + Development</h3>
                     <p>I may be green in the realms of coding and programming, but I'm a hard worker and a fast learner. 
                         <em>Who</em> doesn't enjoy that combination!?</p> <br/>
-                        <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Skills</button>
+                        <button onClick={() => setShowForm(!showForm)} className="skill-button" style={{backgroundColor: "#8BF5C7"}}>Tech Skills</button>
                         { showForm ? null : <ul className="skill-cards">{skillCards}</ul> }<br/>
             <h3>Illustrator</h3>
-                      <p>Art</p>
+                      <p>Art Skills</p>
                     <p>I've been drawing since I was six years old and have been making comics ever since. While largely
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative

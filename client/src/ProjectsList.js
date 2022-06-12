@@ -5,11 +5,11 @@ export default function ProjectsList({projectData}) {
 
 
   return (
-    <div>ProjectsList
-      {name}<br/>
-      {desc}<br/>
-      {git}<br/>
-      {vid}
+    <div>
+      Name: {name}<br/>
+      Description: {desc}<br/>
+      Git Link: {git}<br/>
+      Demo Vid: {vid} <br/>
     </div>
   )
 }
