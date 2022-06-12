@@ -31,7 +31,6 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
                         expression.</p>
-                        <ul className="skillCards">{skillCards}</ul>
                         <hr/>
         </div>
   )
