@@ -20,7 +20,7 @@ export default function Education() {
   return (
     <div div className="Education">
         <h2>Education</h2>
-      <button onClick={() => setShowForm(!showForm)} className="edu-button" style={{backgroundColor: "#8BF5C7"}}>See my schooling!</button>
+      <button onClick={() => setShowForm(!showForm)} className="edu-button" style={{backgroundColor: "#8BF5C7"}}>See My Schooling!</button>
                         { showForm ? null : <ul className="edu-cards">{eduCards}</ul> }<br/>
             <hr/>
     </div>

@@ -10,7 +10,7 @@ export default function ProjectsList({projectData}) {
       Description: {desc}<br/><br/>
       Git Link: {git}<br/><br/>
       Demo Vid: {vid} <br/>
-      <br/>
+      <hr className="dot-line"/>
       <br/>
     </div>
   )

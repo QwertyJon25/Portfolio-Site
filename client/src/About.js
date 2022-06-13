@@ -18,7 +18,7 @@ const aboutCards = abouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutDat
 
   return (
         <div className="About">
-            <h3>Hey there, I'm Jon</h3>
+            <h2>Hey there, I'm Jon</h2>
             <hr className="dot-line"/>
             <ul className="aboutCards">{aboutCards}</ul>
             <hr/>

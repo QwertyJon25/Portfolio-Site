@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h2>Featured Projects</h2>
-      <button onClick={() => setShowForm(!showForm)} className="project-button" tyle={{backgroundColor: "#8BF5C7"}}>Current and Past</button>
+      <button onClick={() => setShowForm(!showForm)} className="project-button" style={{backgroundColor: "#8BF5C7"}}>Current and Past</button>
                         { showForm ? null : <ul className="project-cards">{projectCards}</ul> }<br/>
             <hr/>
         </div>

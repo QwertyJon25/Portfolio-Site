@@ -12,6 +12,7 @@ export default function EducationList({ eduData }) {
       {date}<br/>
       {degree}<br/>
       <br/>
+      <hr className="dot-line"/>
     </div>
   )
 }
