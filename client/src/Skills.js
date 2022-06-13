@@ -3,8 +3,9 @@ import SkillsList from './SkillsList.js';
 
 export default function Skills() {
 
-const [skills, setSkills] = useState([])
-const [showForm, setShowForm] = useState([])
+const [skills, setSkills] = useState([]);
+const [showForm, setShowForm] = useState([]);
+const [secondForm, setSecondForm] = useState([]);
 
 
     useEffect(() => {
@@ -38,8 +39,8 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
                         expression.</p>
-                        <button className="art-skill-button" style={{backgroundColor: "#8BF5C7"}} >Art Skills</button>
-                        {/* { showForm ? null : <ul className="art-skill-cards">{skillCards}</ul> } */}
+                        <button onClick={() => setSecondForm(!secondForm)} className="art-skill-button" style={{backgroundColor: "#8BF5C7"}}>Art Skills</button>
+                        { secondForm ? null : <ul className="art-skill-cards"><li>Traditional Media: Pen and Ink, Graphite, Markers, Watercolor</li><li>Digital Media: Adobe Photoshop and Illustrator, Fire Alpaca</li></ul> }
                         <hr/>
         </div>
   )
