@@ -38,7 +38,7 @@ const skillCards = skills?.map(skillObj => <SkillsList key={skillObj.id} skillDa
                         self-taught, I
                         maintain a consistent interest in foundational training and innovation in my creative
                         expression.</p>
-                        <button className="art-skill-button" style={{backgroundColor: "light-grey"}} >Art Skills</button>
+                        <button className="art-skill-button" tyle={{backgroundColor: "#8BF5C7"}} >Art Skills</button>
                         {/* { showForm ? null : <ul className="art-skill-cards">{skillCards}</ul> } */}
                         <hr/>
         </div>

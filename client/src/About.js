@@ -18,8 +18,8 @@ const aboutCards = abouts?.map(aboutObj => <AboutList key={aboutObj.id} aboutDat
 
   return (
         <div className="About">
-          <h2>About</h2>
-            <h3>Howdy.</h3>
+            <h3>Hey there, I'm Jon</h3>
+            <hr className="dot-line"/>
             <ul className="aboutCards">{aboutCards}</ul>
             <hr/>
                 {/* <p className="intro">I am a Comic-Book Artist, Junior Software Engineer and Full-Stack Web Developer. I work at a bookstore, have held a

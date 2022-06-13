@@ -3,6 +3,7 @@ import Main from './Main.js';
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
+import Education from './Education.js';
 import Links from './Links.js';
 import WorkHistory from './WorkHistory.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/work-history" element={<WorkHistory />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/links" element={<Links />} />
           <Route path="*" element={

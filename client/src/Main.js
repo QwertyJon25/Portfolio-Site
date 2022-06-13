@@ -16,12 +16,14 @@ export default function Main() {
             <nav
         style={{
           borderBottom: "solid 1px",
-          paddingBottom: "1rem"
+          paddingBottom: "1rem",
+          color: "#CCD1FA"
         }}
       >
         <Link to="/about">About</Link> |{" "}
         <Link to="/skills">Skills</Link> |{" "}
         <Link to="/work-history">Work History</Link> |{" "}
+        <Link to="/education">Education</Link> |{" "}
         <Link to="/projects">Projects</Link> |{" "}
         <Link to="/links">Links</Link> |{" "}
       </nav>
