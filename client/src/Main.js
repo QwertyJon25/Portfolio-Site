@@ -8,7 +8,7 @@ import { Outlet, Link } from "react-router-dom";
 export default function Main() {
   return (
         <div className="Main">
-          <img src="https://i.imgur.com/s3X9BIJ.jpg" alt="Jon Courtier" width="300" height="350"/>
+          {/* <img src="https://i.imgur.com/s3X9BIJ.jpg" alt="Jon Courtier" width="300" height="350"/> */}
             {/* <About />
             <Skills />
             <Projects />
@@ -21,6 +21,7 @@ export default function Main() {
       >
         <Link to="/about">About</Link> |{" "}
         <Link to="/skills">Skills</Link> |{" "}
+        <Link to="/work-history">Work History</Link> |{" "}
         <Link to="/projects">Projects</Link> |{" "}
         <Link to="/links">Links</Link> |{" "}
       </nav>
