@@ -26,6 +26,7 @@ export default function Main() {
         <Link to="/education">Education</Link> |{" "}
         <Link to="/projects">Projects</Link> |{" "}
         <Link to="/links">Links</Link> |{" "}
+        <Link to="/contact">Contact</Link> |{" "}
       </nav>
       <Outlet />
         </div>

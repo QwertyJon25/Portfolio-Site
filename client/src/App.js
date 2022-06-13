@@ -5,6 +5,7 @@ import Skills from './Skills.js';
 import Projects from './Projects.js';
 import Education from './Education.js';
 import Links from './Links.js';
+import Contact from './Contact.js';
 import WorkHistory from './WorkHistory.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/links" element={<Links />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={
         <main style={{ padding: "1rem" }}>
           <p>There's nothing here!</p>
