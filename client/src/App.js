@@ -11,11 +11,9 @@ function App() {
      <Routes>
        <Route path="/" element={<Main />}>
           <Route path="/about" element={<About />} />
-          <Route path="artists" element={<ArtistPage />} />
-          <Route path="directors" element={<DirectorPage/>} />
-          <Route path="galleries" element={<GalleryPage/>} />
-          <Route path="pieces" element={<PiecePage/>} />
-          <Route path="your-pieces" element={<ArtistProfile/>} />
+          <Route path="skills" element={<ArtistPage />} />
+          <Route path="projects" element={<DirectorPage/>} />
+          <Route path="links" element={<GalleryPage/>} />
           <Route path="*" element={
         <main style={{ padding: "1rem" }}>
           <p>There's nothing here!</p>
