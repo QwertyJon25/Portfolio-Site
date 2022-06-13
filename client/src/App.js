@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <Main />
-      {/* <WelcomePage/>
+      {/* <Main />
     <BrowserRouter>
      <Routes>
        <Route path="/" element={<Main />}>
-          <Route path="/welcome" element={<WelcomeHeader />} />
+          <Route path="/about" element={<About />} />
           <Route path="artists" element={<ArtistPage />} />
           <Route path="directors" element={<DirectorPage/>} />
           <Route path="galleries" element={<GalleryPage/>} />
