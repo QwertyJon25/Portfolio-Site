@@ -2,6 +2,11 @@
 
 ## Description 
 
-Created with React.js as a frontend framework, and Rails as a backend (including a custom built database of featured information). Featuring React Router and CSS for styling.
+Built with a React frontend, custom database in a Rails backend and styled with CSS, SASS and bootstrap.
 
-This application serves as a digital representation of my current skillset as well as my background and history of projects. 
+Created a RESTful API to render lists of technical skills, education background, and projects.
+
+Rendered flip cards to display work history.
+
+Utilized client-side routing to navigate the domain, equipped with relevant links, contact information.
+
