@@ -47,7 +47,7 @@ export default function NavBar() {
                 Doggies
             </NavLink>
             <NavLink
-                to="/agency-page"
+                to="/work-history"
                 exact
                 style={linkStyles}
                 activeStyle={{
