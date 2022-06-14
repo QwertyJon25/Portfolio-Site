@@ -37,7 +37,7 @@ export default function NavBar() {
                 About
             </NavLink>
             <NavLink
-                to="/dog-page"
+                to="/skills"
                 exact
                 style={linkStyles}
                 activeStyle={{
